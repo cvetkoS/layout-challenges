@@ -1,0 +1,46 @@
+$font-head: 'Oswald', 'Times New Roman', serif;
+$font-body: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+$font-size-base: rem(16);
+$line-height-base: 1.5;
+$body-min-width: 320px;
+$max-width: 1200px;
+$footer-width: 27;
+$footer-max-width: 400;
+
+// COLORS
+$blue: #6A9FF8;
+$orange: #FF7F35;
+$purple-light: #c8cbde;
+$purple: #41465c;
+$purple-dark: #343951;
+$yellow-light: #ffb333;
+$yellow: #FFA000;
+$green: ##4AC49E;
+$red: #FF655E;
+$white: #fff;
+$gray-light: #e4e4e7;
+$gray: ##BBBECA;
+$black: #000;
+
+
+$bp-mini: 540;
+$bp-phone: 767;
+$bp-tablet: 991;
+$bp-desktop: 1200;
+
+$heading-color: $purple;
+$text-color: $purple-light;
+$video-related-color: $blue;
+$files-related-color: $yellow;
+$images-related-color: $green;
+$other-related-color: $purple-light;
+$link-color: $purple;
+$link-color-hover: $purple-dark;
+$selection-color: $yellow;
+$selection-text-color: $purple;
+$outline-color: $yellow;
+$scrollbar-track-color: $purple-light;
+$scrollbar-thumb-color: $purple;
+$scrollbar-thumb-hover-color: $purple-dark;
+$nav-background: $purple-dark;
+$main-background: $white;
