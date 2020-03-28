@@ -1,0 +1,7 @@
+.c-aside {
+	display: flex;
+	flex-direction: column;
+	flex: 1.5;
+	max-width: rem(340);
+	background-color: $aside-background;
+}

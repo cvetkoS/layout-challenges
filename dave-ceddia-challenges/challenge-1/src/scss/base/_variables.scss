@@ -1,9 +1,11 @@
 $font-head: 'Oswald', 'Times New Roman', serif;
 $font-body: 'Raleway', 'Helvetica', 'Arial', sans-serif;
-$font-size-base: rem(16);
+$font-size-base: 16;
 $line-height-base: 1.5;
 $body-min-width: 320px;
 $max-width: 1200px;
+$container-max-width: 1440;
+$container-max-height: 1078;
 $footer-width: 27;
 $footer-max-width: 400;
 
@@ -18,6 +20,7 @@ $yellow: #ffa000;
 $green: #4ac49e;
 $red: #ff655e;
 $white: #fff;
+$off-white: #f5f6fb;
 $gray-light: #e4e4e7;
 $gray: #bbbeca;
 $black: #000;
@@ -28,6 +31,7 @@ $bp-phone: 767;
 $bp-tablet: 991;
 $bp-desktop: 1200;
 
+$body-color: $white;
 $heading-color: $purple;
 $text-color: $purple-light;
 $video-related-color: $blue;
@@ -43,4 +47,5 @@ $scrollbar-track-color: $purple-light;
 $scrollbar-thumb-color: $purple;
 $scrollbar-thumb-hover-color: $purple-dark;
 $nav-background: $purple-dark;
-$main-background: $white;
+$main-background: $off-white;
+$aside-background: $off-white;

@@ -8,16 +8,37 @@ html, body {
 }
 
 body {
-	font-size: $font-size-base;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+	min-width: $body-min-width;
+	background-color: $body-color;
+	color: $text-color;
+	font-size: rem($font-size-base);
 	font-family: $font-body;
 	line-height: $line-height-base;
 	font-style: normal;
-	overflow-x: hidden;
-	min-width: $body-min-width;
-	color: $text-color;
 
 	@media only screen and (max-width: 319px) {
 		width: 320px;
+	}
+}
+
+.c-container {
+	display: flex;
+	max-width: rem($container-max-width);
+	max-height: rem($container-max-height);
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	border-radius: 50px;
+    overflow: hidden;
+    perspective: 1px;
+	background-color: inherit;
+
+	> * {
+		height: 100%;
 	}
 }
 

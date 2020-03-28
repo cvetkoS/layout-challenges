@@ -15,8 +15,9 @@
 @import 'base/typography';
 @import 'base/layout';
 
-@import '_containers/main';
 @import '_containers/nav';
+@import '_containers/main';
+@import '_containers/aside';
 @import '_containers/footer';
 
 @import '_blocks/wrapper';

@@ -31,11 +31,15 @@
 
 	</head>
 	<body>
-		<main class="c-main" role="main">
-			@@include('./shared/header.html')
-		</main>
-		@@include('./shared/footer.html')
-		@@include('./shared/nav.html')
+		<div class="c-container">
+			@@include('./shared/nav.html')
+			<main class="c-main" role="main">
+				<!-- @@include('./shared/header.html') -->
+			</main>
+			<aside class="c-aside">
+			</aside>
+			<!-- @@include('./shared/footer.html') -->
+		</div>
 
 		<script src="./js/global.min.js"></script>
 	</body>

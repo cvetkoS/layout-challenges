@@ -1,3 +1,12 @@
 .b-nav {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	max-width: rem(240);
+	background-color: $nav-background;
+
+}
+
+.b-nav__list {
 	display: inline-block;
 }
