@@ -8,10 +8,28 @@
   }
 
   @font-face {
-	font-family: 'Oswald';
-	src: url('../assets/fonts/Oswald-Regular.woff2') format('woff2'),
-		url('../assets/fonts/Oswald-Regular.woff') format('woff'),
-		url('../assets/fonts/Oswald-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-  }
+    font-family: 'Raleway';
+    src: url('Raleway-Bold.woff2') format('woff2'),
+        url('Raleway-Bold.woff') format('woff'),
+        url('Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Medium.woff2') format('woff2'),
+        url('Raleway-Medium.woff') format('woff'),
+        url('Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Regular.woff2') format('woff2'),
+        url('LexendDeca-Regular.woff') format('woff'),
+        url('LexendDeca-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,7 @@
+.e-divider {
+	border: 0;
+	border-bottom: 1px solid transparent;
+	background-color: $gray-dark;
+	border-image-slice: 1;
+	height: rem(1);
+}

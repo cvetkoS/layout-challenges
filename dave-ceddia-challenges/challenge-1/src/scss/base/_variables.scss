@@ -1,4 +1,5 @@
-$font-head: 'Oswald', 'Times New Roman', serif;
+$font-logo: 'Lexend Deca', 'Times New Roman', serif;
+$font-head: 'Raleway', 'Helvetica', 'Arial', sans-serif;
 $font-body: 'Raleway', 'Helvetica', 'Arial', sans-serif;
 $font-size-base: 16;
 $line-height-base: 1.5;
@@ -23,6 +24,7 @@ $white: #fff;
 $off-white: #f5f6fb;
 $gray-light: #e4e4e7;
 $gray: #bbbeca;
+$gray-dark: #767b8e;
 $black: #000;
 
 
@@ -38,8 +40,8 @@ $video-related-color: $blue;
 $files-related-color: $yellow;
 $images-related-color: $green;
 $other-related-color: $purple-light;
-$link-color: $purple;
-$link-color-hover: $purple-dark;
+$link-color: $gray-dark;
+$link-color-hover: $white;
 $selection-color: $yellow;
 $selection-text-color: $purple;
 $outline-color: $yellow;
