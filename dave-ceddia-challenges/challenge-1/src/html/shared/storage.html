@@ -1,13 +1,28 @@
 <div class="b-storage">
 	<div class="wrapper">
 		<h2 class="b-storage__heading">Storage</h2>
-		<div class="storage__circle">
-			<div class="circle__outer">
-				<div class="circle__inner">
-					<span class="circle__percentage-number">85%</span>
-					<span class="circle__percentage-text">Used</span>
-				</div>
+	<!-- <div class="b-storage__circle">
+		<div class="circle__outer">
+			<div class="circle__inner">
+				<span class="circle__percentage-number">85%</span>
+				<span class="circle__percentage-text">Used</span>
 			</div>
 		</div>
+	</div> -->
+		<div class="b-storage__usage-graph">
+			<svg class="arc" viewBox="0 0 190 190">
+				<circle class="arc--docs" cx="95" cy="95" r="91" fill="transparent"></circle>
+				<circle class="arc--videos" cx="95" cy="95" r="91" fill="transparent"></circle>
+				<circle class="arc--images" cx="95" cy="95" r="91" fill="transparent"></circle>
+				<circle class="arc--others" cx="95" cy="95" r="91" fill="transparent"></circle>
+			</svg>
+			<div class="usage-inner">
+				<div class="usage-percent">
+					85<span class="usage-pct-symbol">%</span>
+				</div>
+				<span class="usage-used">Used</span>
+			</div>
+		</div>
+		<div class="b-storage__space-taken"><p>420.2 GB of 500 GB used</p></div>
 	</div>
 </div>
