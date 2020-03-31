@@ -36,3 +36,9 @@
 .u-visually-hidden {
 	@include visually-hidden;
 }
+
+.u-flex-centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

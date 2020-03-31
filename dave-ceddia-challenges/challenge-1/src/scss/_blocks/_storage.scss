@@ -7,7 +7,7 @@
 	}
 
 	&__heading {
-		margin-bottom: rem(52);
+		margin-bottom: rem(64);
 	}
 }
 
@@ -15,12 +15,13 @@
 	position: relative;
 	display: flex;
 	justify-content: center;
-	margin-bottom: rem(65);
+	margin-bottom: rem(50);
 
 	.arc {
 		position: absolute;
 		width: rem(208);
-		top: rem(-20);
+		top: 50%;
+		transform: translateY(-50%);
 		// left: rem(-20);
 		fill: transparent;
 
@@ -70,7 +71,6 @@
 		justify-content: center;
 		width: rem(150);
 		height: rem(150);
-		padding-top: rem(20);
 		font-size: rem(28);
 		color: $gray-dark;
 		background: $white;
@@ -98,7 +98,7 @@
 
 .b-storage__space-taken {
 	color: $purple-light;
-	margin-bottom: rem(20);
+	margin-bottom: rem(35);
 
 
 	p {
@@ -110,3 +110,81 @@
 
 // .b-storage__heading {
 // }
+.b-storage__space-taken-details {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	.space-taken-details__item {
+		display: flex;
+		align-items: center;
+		margin-bottom: rem(24);
+
+		.item__image {
+			margin-right: rem(8);
+		}
+
+		.item__content {
+			p  {
+				margin: 0;
+			}
+
+			.content__title {
+				color: $purple-dark;
+				font-size: rem(14);
+				font-weight: bold;
+			}
+
+			.content__files {
+				font-size: rem(12);
+			}
+		}
+
+		.item__space-taken {
+			background-color: $white;
+			border-radius: rem(10);
+			padding: rem(5) rem(14);
+			color: $purple-dark;
+			font-size: rem(14);
+			font-weight: bold;
+			margin-left: auto;
+		}
+	}
+}
+
+.b-storage__upgrade-storage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: rem(33);
+	padding: rem(30) rem(35);
+	background-color: $white;
+	border-radius: rem(40);
+
+	.upgrade-storage__image {
+		width: 120px;
+		background-color: transparent;
+	}
+
+	.upgrade-storage__heading {
+		font-size: rem(19);
+		line-height: 1.6;
+		letter-spacing: -0.4px;
+		margin-bottom: rem(4);
+	}
+
+	.upgrade-storage__subheading {
+		font-size: rem(12);
+		margin-bottom: rem(15);
+	}
+
+	.e-button {
+		font-size: rem(15);
+		font-weight: 500;
+		width: 190px;
+		text-align: center;
+		padding: rem(16) rem(5) rem(15);
+	}
+}
+
