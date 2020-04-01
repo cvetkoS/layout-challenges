@@ -4,4 +4,8 @@
 	flex: 3;
 	margin: 0 rem(30);
 	background-color: $main-background;
+
+	.wrapper {
+		padding: rem(35) rem(20) rem(45);
+	}
 }

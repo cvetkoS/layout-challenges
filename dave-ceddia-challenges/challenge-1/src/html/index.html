@@ -34,10 +34,12 @@
 		<div class="c-container">
 			@@include('./shared/nav.html')
 			<main class="c-main" role="main">
-				@@include('./partials/search-input.html')
-				@@include('./partials/recently-used.html')
-				@@include('./partials/recent-files.html')
-				@@include('./partials/shared-with-me.html')
+				<div class="wrapper">
+					@@include('./partials/search-input.html')
+					@@include('./partials/recently-used.html')
+					@@include('./partials/recent-files.html')
+					@@include('./partials/shared-with-me.html')
+				</div>
 			</main>
 			<aside class="c-aside">
 				@@include('./shared/personal.html')
