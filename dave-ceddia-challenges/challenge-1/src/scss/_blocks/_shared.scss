@@ -1,0 +1,42 @@
+.heading-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin: rem(25) 0 rem(35);
+
+	&__heading {
+		font-weight: 600;
+		font-size: rem(25);
+		letter-spacing: 0.2px;
+
+	}
+
+	&__heading-actions {
+		display: flex;
+		align-items: center;
+
+		margin-top: rem(10);
+	}
+
+	&__heading-action {
+		display: inline-flex;
+		align-items: center;
+
+		padding: 0 rem(5);
+
+		background: transparent;
+		border: 0;
+		opacity: 0.6;
+
+
+		&:last-of-type {
+			padding-right: 0;
+		}
+
+		svg {
+			width: rem(24);
+			height: rem(24);
+		}
+	}
+}
