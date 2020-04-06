@@ -1,0 +1,18 @@
+.b-shared-with-me {
+	// padding-right: rem(15);
+	.heading-container {
+		margin-bottom: rem(25);
+
+		&__heading {
+			font-size: rem(23);
+		}
+
+		&__heading-actions {
+			padding-bottom: rem(5);
+		}
+	}
+
+	.projects {
+		margin-right: rem(45);
+	}
+}

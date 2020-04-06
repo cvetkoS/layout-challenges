@@ -12,11 +12,13 @@
 	flex: 1 auto;
 	width: 100%;
 	max-width: 33.3%;
-	padding: rem(20);
+	padding: rem(14) rem(15) rem(10);
 	background-color: $white;
 	border-radius: rem(20);
 
 	&--big {
+		padding-left: rem(20);
+		padding-right: rem(20);
 		padding-top: rem(35);
 		padding-bottom: rem(25);
 
@@ -24,8 +26,17 @@
 			margin-bottom: rem(35);
 		}
 
+		.project__icon {
+			margin-right: rem(28);
+		}
+
 		.project__heading {
 			margin-bottom: rem(10);
+		}
+
+		.project__participant {
+			width: rem(25);
+			height: rem(25);
 		}
 
 		&__icon {
@@ -42,10 +53,11 @@
 	&__icons {
 		display: flex;
 		align-items: center;
+		margin-bottom: rem(10);
 	}
 
 	&__icon {
-		margin-right: rem(28);
+		margin-right: rem(65);
 	}
 
 	&__participants {
@@ -62,8 +74,8 @@
 	}
 
 	&__participant {
-		width: rem(25);
-		height: rem(25);
+		width: rem(30);
+		height: rem(30);
 		border-radius: 50%;
 	}
 
